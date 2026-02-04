@@ -96,7 +96,7 @@ set statusline=\ %{CurrentMode()}\ \|\ %f%m%r%h%w%=%l,%c\ %p%%\
 	call plug#begin()
 
 	Plug 'tpope/vim-sensible' " basic features idk
-	" Plug 'drsooch/gruber-darker-vim' " peak color scheme
+	Plug 'drsooch/gruber-darker-vim' " peak color scheme
 	Plug 'neoclide/coc.nvim', {'branch': 'release'} " cock??
     Plug 'maxmellon/vim-jsx-pretty' " bitchass jsx
 
@@ -116,7 +116,7 @@ set statusline=\ %{CurrentMode()}\ \|\ %f%m%r%h%w%=%l,%c\ %p%%\
 			autocmd ColorScheme * highlight CursorLine ctermbg=235 guibg=#181818 cterm=NONE gui=NONE " current line highlight
             autocmd ColorScheme * highlight MatchParen guifg=#f4f4ff guibg=#9bb5ff ctermfg=255 ctermbg=111
 		augroup END
-		" colorscheme GruberDarker
+		 colorscheme GruberDarker
 
 	" CoC extensions
 		let g:coc_global_extensions = ['coc-tsserver', 'coc-clangd']

@@ -8,7 +8,6 @@ source $ZSH/oh-my-zsh.sh
 alias larth='ls -larth'
 alias python=python3
 alias nv=neovide
-alias vim=nvim
 alias so=source
 alias wl='wl-copy'
 alias spt=spotify_player
